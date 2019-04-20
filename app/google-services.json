@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "986803461079",
+    "firebase_url": "https://mpdemo-48f06.firebaseio.com",
+    "project_id": "mpdemo-48f06",
+    "storage_bucket": "mpdemo-48f06.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:986803461079:android:2feec4f723cb2139",
+        "android_client_info": {
+          "package_name": "com.asj.mpdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "986803461079-0pgk8kb87j3scsrfdov2fbdjasvm8jof.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOGP2J0yP79-U0kaDTM3x_iOdCNRajKqo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "986803461079-0pgk8kb87j3scsrfdov2fbdjasvm8jof.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

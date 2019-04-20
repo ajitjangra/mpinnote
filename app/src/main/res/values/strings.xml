@@ -1,0 +1,13 @@
+<resources>
+  <string name="app_name">MpDemo</string>
+  <string name="empty_notes">No Note is added by you</string>
+  <string name="add_note_title">Title</string>
+  <string name="add_note_desc">Description</string>
+  <string name="add_note_save">SAVE</string>
+  <string name="add_note_delete">DELETE</string>
+  <string name="add_note_title_empty">Title can not empty</string>
+  <string name="add_note_desc_empty">Description can not empty</string>
+  <string name="add_note_ab_title">Add Note</string>
+  <string name="add_note_saved_success">Note saved successfully</string>
+  <string name="add_note_deleted_success">Note deleted successfully</string>
+</resources>

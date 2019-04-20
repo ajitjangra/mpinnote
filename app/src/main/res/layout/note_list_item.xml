@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:layout_margin="8dp"
+  app:cardBackgroundColor="@android:color/white"
+  app:cardCornerRadius="3dp"
+  app:cardElevation="3dp"
+  app:cardPreventCornerOverlap="true">
+
+  <android.support.constraint.ConstraintLayout
+    android:id="@+id/clMain"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="12dp"
+    android:paddingTop="12dp"
+    android:paddingBottom="12dp">
+
+    <TextView
+      android:id="@+id/tvTitle"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:ellipsize="end"
+      android:maxLines="2"
+      app:layout_constraintEnd_toStartOf="@id/ivDelete"
+      app:layout_constraintStart_toStartOf="parent"
+      tools:text="Title" />
+
+    <ImageView
+      android:id="@+id/ivDelete"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:paddingLeft="10dp"
+      android:paddingRight="10dp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toEndOf="@id/tvTitle"
+      app:srcCompat="@drawable/ic_delete_forever_red_24dp" />
+
+    <TextView
+      android:id="@+id/tvDesc"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="10dp"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/tvTitle"
+      tools:text="Description" />
+
+  </android.support.constraint.ConstraintLayout>
+
+</android.support.v7.widget.CardView>
